@@ -413,6 +413,66 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section id="contact" className="mx-auto max-w-7xl px-6 py-20">
+        <div className="grid gap-10 lg:grid-cols-2">
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Contact</span>
+            <h2 className="mt-4 text-4xl font-bold">Visit us or get in touch</h2>
+            <p className="mt-6 text-lg leading-8 text-stone-300">
+              Ready to reserve a table, plan an event, or ask about our menu? Contact us and our team will help you.
+            </p>
+
+            <div className="mt-8 space-y-5 text-stone-300">
+              <p><span className="font-semibold text-white">Address:</span> 123 Main Street, Your City</p>
+              <p><span className="font-semibold text-white">Phone:</span> +40 700 000 000</p>
+              <p><span className="font-semibold text-white">Email:</span> hello@yourrestaurantwebsite.com</p>
+              <p><span className="font-semibold text-white">Hours:</span> Mon–Thu 12:00–22:00 | Fri–Sun 12:00–23:00</p>
+            </div>
+          </div>
+
+          <form className="rounded-[2rem] border border-white/10 bg-white/5 p-8">
+            <div className="grid gap-5">
+              <div>
+                <label htmlFor="contact-name" className="mb-2 block text-sm text-stone-300">Name</label>
+                <input
+                  id="contact-name"
+                  type="text"
+                  placeholder="Your name"
+                  className="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white placeholder:text-stone-500 focus:border-brand-400 focus:outline-none"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="contact-email" className="mb-2 block text-sm text-stone-300">Email</label>
+                <input
+                  id="contact-email"
+                  type="email"
+                  placeholder="you@example.com"
+                  className="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white placeholder:text-stone-500 focus:border-brand-400 focus:outline-none"
+                />
+              </div>
+
+              <div>
+                <label for="contact-message" class="mb-2 block text-sm text-stone-300">Message</label>
+                <textarea
+                  id="contact-message"
+                  rows="5"
+                  placeholder="Tell us about your reservation, event, or question..."
+                  class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white placeholder:text-stone-500 focus:border-brand-400 focus:outline-none"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="rounded-2xl bg-brand-500 px-6 py-3 font-semibold text-white transition hover:bg-brand-400"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      
     </>
   );
 }
