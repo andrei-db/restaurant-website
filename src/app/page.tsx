@@ -299,6 +299,85 @@ export default function Home() {
           />
         </div>
       </section>
+      <section id="events" className="bg-stone-900/60">
+        <div className="mx-auto max-w-7xl px-6 py-20">
+          <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
+            <div>
+              <span className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Private Events & Catering</span>
+              <h2 className="mt-4 text-4xl font-bold">Host your next event with us</h2>
+              <p className="mt-6 text-lg leading-8 text-stone-300">
+                Planning a birthday, anniversary, corporate dinner, or private gathering? We offer tailored dining
+                experiences, flexible event options, and attentive service to make your event seamless and memorable.
+              </p>
+
+              <ul className="mt-8 space-y-4 text-stone-300">
+                <li>• Private dining spaces for intimate and group events</li>
+                <li>• Custom food and drink menus</li>
+                <li>• Support for corporate dinners and special celebrations</li>
+                <li>• Catering available for select local events</li>
+              </ul>
+
+              <div className="mt-8">
+                <a
+                  href="#contact"
+                  className="rounded-full bg-brand-500 px-6 py-3 font-semibold text-white transition hover:bg-brand-400"
+                >
+                  Request an Event Offer
+                </a>
+              </div>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2">
+              <img
+                src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?q=80&w=900&auto=format&fit=crop"
+                alt="Restaurant private event setup"
+                className="h-64 w-full rounded-3xl object-cover"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?q=80&w=900&auto=format&fit=crop"
+                alt="Elegant catering table"
+                className="h-64 w-full rounded-3xl object-cover sm:mt-8"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews" className="mx-auto max-w-7xl px-6 py-20">
+        <div className="max-w-2xl">
+          <span className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Testimonials</span>
+          <h2 className="mt-4 text-4xl font-bold">What our guests say</h2>
+          <p className="mt-6 text-lg leading-8 text-stone-300">
+            Great dining experiences build trust. These testimonials help turn visitors into customers by showing
+            the quality of your food, service, and atmosphere.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <div className="text-brand-300">★★★★★</div>
+            <p className="mt-4 text-stone-300">
+              “One of the best restaurants in the city. Amazing food, beautiful atmosphere, and excellent service.”
+            </p>
+            <p className="mt-5 font-semibold text-white">— Sarah M.</p>
+          </article>
+
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <div className="text-brand-300">★★★★★</div>
+            <p className="mt-4 text-stone-300">
+              “Perfect place for a dinner date. The steak was incredible and the staff made everything feel special.”
+            </p>
+            <p className="mt-5 font-semibold text-white">— Daniel R.</p>
+          </article>
+
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <div className="text-brand-300">★★★★★</div>
+            <p className="mt-4 text-stone-300">
+              “We celebrated a birthday here and everything was outstanding. Highly recommended for special occasions.”
+            </p>
+            <p className="mt-5 font-semibold text-white">— Elena T.</p>
+          </article>
+        </div>
+      </section>
     </>
   );
 }
