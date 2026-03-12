@@ -453,12 +453,12 @@ export default function Home() {
               </div>
 
               <div>
-                <label for="contact-message" class="mb-2 block text-sm text-stone-300">Message</label>
+                <label htmlFor="contact-message" className="mb-2 block text-sm text-stone-300">Message</label>
                 <textarea
                   id="contact-message"
-                  rows="5"
+                  rows={5}
                   placeholder="Tell us about your reservation, event, or question..."
-                  class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white placeholder:text-stone-500 focus:border-brand-400 focus:outline-none"
+                  className="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white placeholder:text-stone-500 focus:border-brand-400 focus:outline-none"
                 ></textarea>
               </div>
 
