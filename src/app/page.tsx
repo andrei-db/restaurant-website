@@ -186,6 +186,81 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section id="menu" className="bg-stone-900/60">
+        <div className="mx-auto max-w-7xl px-6 py-20">
+          <div className="max-w-2xl">
+            <span className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Our Menu</span>
+            <h2 className="mt-4 text-4xl font-bold">Signature dishes your guests will remember</h2>
+            <p className="mt-6 text-lg leading-8 text-stone-300">
+              Our menu is built around quality, flavor, and consistency. From premium meats to handmade pasta and
+              seasonal desserts, every plate is prepared with care.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <img
+                src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=900&auto=format&fit=crop"
+                alt="Grilled ribeye steak with vegetables"
+                className="h-48 w-full rounded-2xl object-cover"
+              />
+              <h3 className="mt-5 text-xl font-semibold">Grilled Ribeye Steak</h3>
+              <p className="mt-3 text-stone-300">
+                Premium ribeye cooked to perfection, served with roasted vegetables and house sauce.
+              </p>
+              <p className="mt-4 text-brand-300">$28</p>
+            </article>
+
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <img
+                src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=900&auto=format&fit=crop"
+                alt="Seafood pasta with herbs"
+                className="h-48 w-full rounded-2xl object-cover"
+              />
+              <h3 className="mt-5 text-xl font-semibold">Fresh Seafood Pasta</h3>
+              <p className="mt-3 text-stone-300">
+                Handmade pasta with fresh seafood, garlic, herbs, and a delicate white wine sauce.
+              </p>
+              <p className="mt-4 text-brand-300">$22</p>
+            </article>
+
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=900&auto=format&fit=crop"
+                alt="Signature burger with fries"
+                className="h-48 w-full rounded-2xl object-cover"
+              />
+              <h3 className="mt-5 text-xl font-semibold">Signature Burger</h3>
+              <p className="mt-3 text-stone-300">
+                Juicy beef burger, cheddar cheese, caramelized onions, and our house-made signature sauce.
+              </p>
+              <p className="mt-4 text-brand-300">$16</p>
+            </article>
+
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <img
+                src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=900&auto=format&fit=crop"
+                alt="Chef dessert plated beautifully"
+                className="h-48 w-full rounded-2xl object-cover"
+              />
+              <h3 className="mt-5 text-xl font-semibold">Chef’s Dessert</h3>
+              <p className="mt-3 text-stone-300">
+                A seasonal dessert crafted daily to end your dining experience on a perfect note.
+              </p>
+              <p className="mt-4 text-brand-300">$9</p>
+            </article>
+          </div>
+
+          <div className="mt-10">
+            <a
+              href="#contact"
+              className="inline-flex rounded-full border border-white/20 px-6 py-3 font-semibold text-white transition hover:border-white hover:bg-white/5"
+            >
+              Request Full Menu
+            </a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
