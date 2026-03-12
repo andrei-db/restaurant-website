@@ -378,6 +378,41 @@ export default function Home() {
           </article>
         </div>
       </section>
+      <section className="bg-stone-900/60">
+        <div className="mx-auto max-w-7xl px-6 py-20">
+          <div className="max-w-2xl">
+            <span className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">SEO Content</span>
+            <h2 className="mt-4 text-4xl font-bold">Blog topics that can bring local traffic</h2>
+            <p className="mt-6 text-lg leading-8 text-stone-300">
+              Add articles like these to attract people searching for restaurants, food experiences, and event venues
+              in your area.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <h3 className="text-xl font-semibold">Best Places for Dinner in Your City</h3>
+              <p className="mt-3 text-stone-300">
+                A local guide to where people can enjoy quality food, ambiance, and service.
+              </p>
+            </article>
+
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <h3 className="text-xl font-semibold">How to Choose the Perfect Restaurant for a Date Night</h3>
+              <p className="mt-3 text-stone-300">
+                Helpful content that targets romantic dinner and special-occasion searches.
+              </p>
+            </article>
+
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <h3 className="text-xl font-semibold">Top Private Event Restaurants in Your City</h3>
+              <p className="mt-3 text-stone-300">
+                Strong local-intent content for birthdays, business dinners, and private celebrations.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
