@@ -292,6 +292,9 @@
   .h-72 {
     height: calc(var(--spacing) * 72);
   }
+  .h-\[520px\] {
+    height: 520px;
+  }
   .min-h-\[90vh\] {
     min-height: 90vh;
   }
@@ -373,6 +376,9 @@
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
+  }
+  .rounded-\[2rem\] {
+    border-radius: 2rem;
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
@@ -794,6 +800,11 @@
   .lg\:grid-cols-2 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-\[1\.1fr_0\.9fr\] {
+    @media (width >= 64rem) {
+      grid-template-columns: 1.1fr 0.9fr;
     }
   }
   .lg\:items-center {

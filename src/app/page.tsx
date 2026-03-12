@@ -261,6 +261,44 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section id="experience" className="mx-auto max-w-7xl px-6 py-20">
+        <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">The Experience</span>
+            <h2 className="mt-4 text-4xl font-bold">Designed for memorable moments</h2>
+            <p className="mt-6 text-lg leading-8 text-stone-300">
+              From the ambiance to the service, every detail is designed to create an inviting and elevated dining
+              experience. Our restaurant is perfect for date nights, business meetings, family lunches, and
+              celebrations with friends.
+            </p>
+
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                <h3 className="font-semibold">Romantic Dinners</h3>
+                <p className="mt-2 text-sm text-stone-300">Warm lighting, elegant plates, and intimate seating.</p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                <h3 className="font-semibold">Business Lunches</h3>
+                <p className="mt-2 text-sm text-stone-300">Professional service and a comfortable environment.</p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                <h3 className="font-semibold">Family Gatherings</h3>
+                <p className="mt-2 text-sm text-stone-300">A welcoming atmosphere for all ages and occasions.</p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                <h3 className="font-semibold">Special Celebrations</h3>
+                <p className="mt-2 text-sm text-stone-300">Perfect for anniversaries, birthdays, and milestone evenings.</p>
+              </div>
+            </div>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format&fit=crop"
+            alt="Guests enjoying dinner in a stylish restaurant"
+            className="h-[520px] w-full rounded-[2rem] object-cover"
+          />
+        </div>
+      </section>
     </>
   );
 }
