@@ -1,5 +1,3 @@
-import Navbar from "@/compontents/Navbar";
-import Footer from "@/compontents/Footer";
 const menuSections = [
   {
     title: "Starters",
@@ -46,8 +44,6 @@ const menuSections = [
 export default function MenuPage() {
   return (
     <main className="min-h-screen bg-stone-950 text-white">
-      <Navbar />
-
       <section className="mx-auto max-w-7xl px-6 py-20">
         <h1 className="text-5xl font-bold">Our Menu</h1>
         <p className="mt-4 max-w-2xl text-lg text-stone-300">
@@ -77,8 +73,6 @@ export default function MenuPage() {
           ))}
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }
